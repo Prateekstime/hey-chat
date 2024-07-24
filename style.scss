@@ -1,0 +1,99 @@
+.formContainer {
+  background-color: #a7bcff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+    .formWrapper{
+      background-color: aliceblue;
+      padding: 8%;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      
+     
+
+        .logo {
+          font-size: 24px;
+          font-weight: 700;
+          color: #7d57ef;
+        }
+        .title {
+          font-size: 15px;
+          font-weight: 600;
+          color: #65729c;
+        }
+
+      form{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        input{
+          padding: 15px;
+          border: none;
+          width: 250px;
+          border-bottom: 1px solid
+          #a7bcff;
+          &::placeholder{
+            color: rgb(175, 175, 175);
+          }
+        }
+        button{
+          background-color: #9ab1fc;
+          color: #fff;
+          padding: 10px;
+          font-weight: bold;
+          border: none;
+          border-radius: 10px;
+          font-weight: 600;
+          cursor: pointer;
+         }   
+        }
+        p {
+          color: #65729c;
+          font-size: 12px;
+          margin-top: 10px;
+        
+      }
+      label{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 12px;
+        color: #6085ff;
+        cursor: pointer;
+      }
+      img{
+       height: 32px;
+      }
+    }
+}
+//-----------------------------Home----------
+
+.home{
+  background-color: #6085ff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container{
+    border: 2px solid rgb(115, 40, 255);
+    ;
+    border-radius: 10px;
+    width: 65%;
+    height: 80vh;
+    display: flex;
+    overflow: hidden;
+
+    .sidebar{width: 35%; border-right:  2px solid #30499b;
+      background-color: #2b3f81;
+    }
+    .chatbox{width: 70%;}
+
+  }
+}
