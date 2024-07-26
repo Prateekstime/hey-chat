@@ -1,11 +1,13 @@
 import React from 'react';
-import Navbar from './Navbar.jsx';
+import Nav from './Nav'
+
+
 
 
 const Chatbox = () => {
   return (
     <div>
-      <Navbar />      
+      <Nav />
     </div>
   )
 }
